@@ -1,0 +1,22 @@
+{
+  "name": "workshop-js",
+  "version": "0.1.0",
+  "description": "A basic JavaScript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Angelica-17/workshop-js.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Angelica Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Angelica-17/workshop-js/issues"
+  },
+  "homepage": "https://github.com/Angelica-17/workshop-js#readme"
+}

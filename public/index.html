@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Simons Says</title>
+</head>
+<body>
+    <header>
+        <h1>SIMONS SAY GAME</h1>
+    </header>
+    <main>
+       <div id="grid-general">
+            <!--Panel game -->
+        <div id="grid-container">
+            <div 
+            onclick="panelClicked(event.currentTarget)"
+            class="grid-item item-1"></div>
+            <div
+            onclick="panelClicked(event.currentTarget)" 
+            class="grid-item item-2"></div>
+            <div
+            onclick="panelClicked(event.currentTarget)"
+            class="grid-item item-3"></div>
+            <div
+            onclick="panelClicked(event.currentTarget)" 
+            class="grid-item item-4"></div>
+        </div>
+        <!-- Start button -->
+        <!-- <div id="start-button">
+            Start the game:D!
+        </div> -->
+       </div>
+    </main>
+    <script src="../src/index.js"></script>
+    
+</body>
+</html>
